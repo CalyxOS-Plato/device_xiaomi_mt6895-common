@@ -140,7 +140,7 @@ PRODUCT_PACKAGES += \
     IFAAService
 
 # IMS
-$(call inherit-product, hardware/lineage/compat/frameworks/compat.mk)
+$(call inherit-product, hardware/calyx/compat/frameworks/compat.mk)
 $(call inherit-product, hardware/mediatek/frameworks/mediatek-frameworks.mk)
 
 PRODUCT_COPY_FILES += \
@@ -309,7 +309,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/pixel \
     hardware/google/interfaces \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/calyx/interfaces/power-libperfmgr \
     hardware/mediatek \
     hardware/mediatek/libaedv \
     hardware/mediatek/libmtkperf_client \
